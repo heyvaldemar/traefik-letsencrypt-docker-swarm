@@ -32,7 +32,7 @@ services:
   traefik:
     <<: *default-opts
     # Image tag (replace with yours)
-    image: traefik:2.4
+    image: traefik:2.8
     command:
       - "--log.level=WARN"
       - "--accesslog=true"
