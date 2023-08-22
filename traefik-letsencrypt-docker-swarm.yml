@@ -86,6 +86,8 @@ services:
     ports:
       - "80:80"
       - "443:443"
+      # For Mattermost
+      # - "443:443"
     healthcheck:
       test: ["CMD", "wget", "http://localhost:8082/ping","--spider"]
       interval: 10s
