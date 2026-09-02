@@ -1,3 +1,5 @@
+> **Archived.** Every one of my maintained `*-traefik-letsencrypt-docker-compose` templates bundles Traefik with Let's Encrypt out of the box, so a standalone Traefik stack is no longer needed: [browse the templates](https://github.com/heyvaldemar?tab=repositories&q=traefik-letsencrypt-docker-compose). This repository stays up for reference but receives no updates.
+
 # Traefik with Let's Encrypt in a Docker Swarm
 
 Install Docker Swarm by following my [guide](https://www.heyvaldemar.com/install-docker-swarm-on-ubuntu-server/).
